@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">NR.Studio</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon "></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">
+                                <i class="uil uil-briefcase-alt nav__icon"></i> Services
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Portfolio
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contactme
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/braiyen-ngale-9715a3277/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+
+                            <a href="https://www.deviantart.com/nightroomstudio" target="_blank" class="home__social-icon">
+                                <i class='bx bxl-deviantart'></i>
+                            </a>
+
+                            <a href="https://www.tiktok.com/@nr_studio1" target="_blank" class="home__social-icon">
+                                <i class='bx bxl-tiktok'></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    
+                                    <image class="home__blob-img" x="-60" y="-54" href="assets/img/portofolio.png"/>
+                                </g>
+                            </svg>   
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'am Braiyen</h1>
+                            <h3 class="home__subtitle">Visual Digital Art</h3>
+                            <p class="home__description">Freelance visual digital artist, filmaker, videographer
+                                and animator. Falling love with coriusity,
+                                idea and creativity.  </p>
+
+                                <a href="#contact" class="button button--flex">
+                                    Contact Me <i class="uil uil-message button__icon"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <h2 class="section__title">About Me</h2>
+                <span class="section__subtitle">Little Thing</span>
+
+                <div class="about__container container grid">
+                    <img src="assets/img/About.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">a visual digital artist, i loved to make creative things from my imagination, 
+                            Make Cinematograhy scene, 2D or 3D Animation to make a short scene  for a videos and movies.  
+                            make art on digital platform is so fun for me, as it drawings or make  videos that can push my creativity.
+                            blend it all for make the output more unique 
+                            </p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">Two</span>
+                                <span class="about__info-name">Years <br> Experience</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">15+</span>
+                                <span class="about__info-name">Completed <br> Project</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">SelfLearn</span>
+                                <span class="about__info-name">Freelance <br> Worker</span>
+                            </div>
+                        </div>
+
+                        <div class="about__buttons">
+                            <a download="" href="" class="button button--flex">
+                                Download CV<i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">What i got</span>
+
+                <div class="container-fluid">
+                    <divc class="row justify-content-center">
+
+                        <div class="col-10 text-center mt-3">
+                            <img src="assets/img/Blender2.png" alt="">
+                            <img src="assets/img/C4D.png" alt="">
+                            <img src="assets/img/Corona2.png" alt="">
+                            <img src="assets/img/Davinci.png" alt="">
+                            <img src="assets/img/Open.png" alt="">
+                            <img src="assets/img/PS.png" alt="">
+                            <img src="assets/img/premiere2.png" alt="">
+                        </div>
+                    </div>
+
+                    <p class="home__description">Concepting is everythings for me, 
+                        so everything about what am i doing with my Arts i love to
+                        call it CREATIVITY.</p>
+                </div>
+            </section>
+
+            <section class="Skills2 section" id="skills2">
+                <h2 class="section__title">Skills Capabilities</h2>
+                <span class="section__subtitle">my clasifications</span>
+
+                <div class="skills2__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills2__content skills2__open">
+                            <div class="skills2__header">
+                                <i class="uil uil-tablet skills2__icon"></i>
+
+                                <div>
+                                    <h1 class="skills2__title ">Digital Art</h1>
+                                    <span class="skills2__subtitle">Practical</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills2__arrow"></i>
+                            </div>
+
+                            <div class="skills2__list grid">
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">Photoshop</h3>
+                                        <span class="skills2__descriptions">used 90%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Photoshop"></span>
+                                    </div>
+
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">Hand drawings & Vector</h3>
+                                        <span class="skills2__descriptions">used 90%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skill2__spercentage skills__Photoshop"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills2__content skills2__close">
+                            <div class="skills2__header">
+                                <i class="uil uil-clapper-board skills2__icon"></i>
+
+                                <div>
+                                    <h1 class="skills2__title">Animator</h1>
+                                    <span class="skills2__subtitle">Practical</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills2__arrow" ></i>
+                            </div>
+
+                            <div class="skills2__list grid">
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">Hand drawings & Vector</h3>
+                                        <span class="skills2__descriptions">used 90%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                    <span class="skills2__spercentage skills__Photoshop"></span>
+                                </div>
+                                    
+                                    <div class="skills2__titles">
+                                    <h3 class="skills2__name">Photoshop 2D</h3>
+                                        <span class="skills2__descriptions">used 40%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Photoshop"></span>
+                                    </div>
+
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">Opentoonz 2D</h3>
+                                        <span class="skills2__descriptions">used 60%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Opentoonz"></span>
+                                    </div>
+
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">blender 3D</h3>
+                                        <span class="skills2__descriptions">used 40%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Blender"></span>
+                                    </div>
+
+                                    <divc class="skills2__titles">
+                                        <h3 class="skills2__name">Cinema4D 3D</h3>
+                                        <span class="skills2__descriptions">used 80%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Cinema4D"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills2__content skills2__close">
+                            <div class="skills2__header">
+                                <i class="uil uil-film skills2__icon"></i>
+
+                                <div>
+                                    <h1 class="skills2__title">Cinematograhy</h1>
+                                    <span class="skills2__subtitle">Practical</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills2__arrow"></i>
+                            </div>
+                        
+                            <div class="skills2__list grid">
+                                <div class="skills2__data">   
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">Photoshop 2D</h3>
+                                        <span class="skills2__descriptions">used 40%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Photoshop"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">  
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">Davinci Resolve</h3>
+                                        <span class="skills2__descriptions">used 90%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Opentoonz"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">  
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">blender 3D</h3>
+                                        <span class="skills2__descriptions">used 20%</span>
+                                    </div>                                    
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Blender"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">  
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">Cinema4D 3D</h3>
+                                        <span class="skills2__descriptions">used 80%</span>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Cinema4D"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 4 ====================-->
+                        <div class="skills2__content skills2__close">
+                            <div class="skills2__header">
+                                <i class="uil uil-shutter skills2__icon"></i>
+
+                                <div>
+                                    <h1 class="skills2__title">Videographer & Filmmaker</h1>
+                                    <span class="skills2__subtitle">Practical</span>
+                                </div>
+
+                                <i class="uil uil-angle-down skills2__arrow"></i>
+                            </div>
+
+                            <div class="skills2__list grid">
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Producing Stories</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Photoshop"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Producing Videos</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Opentoonz"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Editing and Sound Mixing</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skill2__spercentage skills__Blender"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Critical Thinking</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Cinema4D"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Video Storytelling</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Cinema4D"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Edited raw footage in post-production to produce professional videos</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Cinema4D"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Worked closely and communicated regularly with clients to understand and capture vision on video.</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Cinema4D"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Edited videos and rearranged shots to match creative or production requirements.</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Cinema4D"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills2__data">
+                                    <div class="skills2__titles">
+                                        <h3 class="skills2__name">. Developed creative approaches to video production to create unique and engaging content.</h3>
+                                    </div>
+                                    <div class="skills2__bar">
+                                        <span class="skills2__spercentage skills__Cinema4D"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== QUALIFICATION ====================-->
+            <section class="qualification section">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-suitcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                
+                                <div>
+                                    <h3 class="qualification__title">High-Shool Graduated</h3>
+                                    <span class="qualification__subtitle">Palu - SMA N 3 Palu</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calender"></i>
+                                        Aug 2014 - Aug 2017
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Videographer</h3>
+                                    <span class="qualification__subtitle">freelance - Palu</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calender"></i>
+                                        Mey 2021 - dec 2022
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 3 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Editor</h3>
+                                    <span class="qualification__subtitle">freelance - Palu</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calender"></i>
+                                        Mey 2021 - dec 2022
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 4 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Digital Art</h3>
+                                    <span class="qualification__subtitle">practicion - Palu</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calender"></i>
+                                        Mey 2019 - 2023
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 5 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Animator & filmmaker</h3>
+                                    <span class="qualification__subtitle">practicion - Palu</span>
+                                    <div class="qualification__calender">
+                                        <i class="uil uil-calender"></i>
+                                        jan 2021 - 2023
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Services</h2>
+                <span class="section__subtitle">Hire me</span>
+
+                <div class="services__container container grid">
+                    <!--==================== SERVICES 1====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-edit-alt services__icon"></i>
+                            <h3 class="services__title">Digital art<br> design</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-circle-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Digital art <br> design</h4>
+                                <i class="uil uil-times-circle services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I create character design</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Make Concept Art</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Build Environtment Concept</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 2====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-shutter-alt services__icon"></i>
+                            <h3 class="services__title">Videogrpher . <br> Editor</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-circle-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Videographer. <br> Editor</h4>
+                                <i class="uil uil-times-circle services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Cinematography Shooting & Editing</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>wedding-Prewedd Shooting & Editing cinemattic</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Event Shooting & Editing cinematic</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Product/comercial Shooting & editing</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SERVICES 3====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-film services__icon"></i>
+                            <h3 class="services__title">Film . <br> Animation </h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            View More
+                            <i class="uil uil-arrow-circle-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Film .<br> Animation</h4>
+                                <i class="uil uil-times-circle services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>I make Trailler movie animation & cinema
+                                            youtube opening or tiktok etc.
+                                        </p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Concept Storyboard drawings</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Shooting And editing</p>
+                                    </li>
+
+                                    <li class="services__modal-service">
+                                        <i class="uil uil-check-circle services__modal-icon"></i>
+                                        <p>Comercial Animation for your cool product</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">My works</span>
+
+                <div class="portfolio__container container swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/poster33.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Digital Art</h3>
+                                <p class="portfolio__description"> Cool character design, environtment, 
+                                concept art story background, details and unique</p>
+                                <a href="https://www.artstation.com/nightroom2" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-circle-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/poster2.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Cinematography</h3>
+                                <p class="portfolio__description">Moment is a history and dont let it pass make it forever.</p>
+                                <a href="https://youtu.be/VuOnSdLEWCM" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-circle-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/poster1.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Animation & Film</h3>
+                                <p class="portfolio__description"> Epic intro movies, sound design, shoot technique and Concept story board,
+                                    cool things i've been done.
+                                </p>
+                                <a href="https://youtu.be/xMw71zecTrY" class="button button--flex button--small portfolio__button">
+                                    Demo
+                                    <i class="uil uil-arrow-circle-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== PROJECT IN MIND ====================-->
+            <section class="project section">
+                <div class="project__bg">
+                    <div class="project__container container grid">
+                        <div class="project__data">
+                            <h2 class="project__title">Lets do our dream job.</h2>
+                            <p class="project__description">Contact me and make some fun</p>
+                            <a href="#contact" class="button button--flex button--white">
+                                Contcat Me 
+                                <i class="uil uil-comment-check project__icon button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <style>
+                    .project__bg{
+                        background-image: url(assets/Project2.png);
+                        position: relative;
+                        top: 10px;
+                        background-size: cover;
+                        padding-top: 3rem;
+                        margin-top: -2px;
+                        border-radius: 30px;
+                    }
+                </style>
+                    <img src="assets/img/project2.png" alt="" class="project__img">
+                </div>    
+            </section>
+
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-mobile-vibrate contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Let's talk</h3>
+                                <span class="contact__subtitle">0852-3117-2929</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">nightroomstudio@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Palu - Sulawesi tengah - Indonesia </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Nightroom_studio</h1>
+                        <span class="footer__subtitle">Visual Digital Art</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contactme</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.instagram.com/braiyennr/" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://twitter.com/djorghi27162" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                        <a href="https://web.facebook.com/profile.php?id=100090634615760" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/channel/UCafAYpaAG1WeHkjFRAEUAcg" target="_blank" class="footer__social">
+                            <i class="uil uil-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; NR_Studio. All right reserved</p>
+            </div>
+        </footer>
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <link href="https://cdn.jsdelivr.net/npm/swiper@9.3.2/modules/scrollbar/scrollbar.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9.3.2/swiper-bundle.min.js"></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
